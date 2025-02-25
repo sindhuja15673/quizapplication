@@ -1,0 +1,26 @@
+.link{
+    text-decoration: none;
+    margin-left: 550px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(226, 45, 250) ;
+}
+
+.buttons{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: rgb(226, 45, 250);
+  }
+  .buttons:hover{
+    box-shadow: 1px 1px 5px 2px  rgb(236, 134, 250);
+  }
+  p{
+    color: rgb(226, 45, 250) ;
+  }
+  h2{
+    color: rgb(226, 45, 250) ;
+    text-shadow: 5px 5px 5px  rgb(112, 180, 236);
+
+  }

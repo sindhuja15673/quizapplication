@@ -1,0 +1,42 @@
+.option {
+    display: block;
+    padding: 8px;
+    border: 2px solid #ccc; 
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-right: 40px;
+  }
+  
+  .option.selected {
+    background-color: rgb(122, 240, 122); 
+    box-shadow: 1px 1px 5px 2px  rgb(134, 171, 250);
+    border-color: rgb(28, 197, 22);
+    
+  }
+
+  .option:hover {
+    border-color: rgb(226, 45, 250);
+    
+    background-color: #f0f0f0; 
+    box-shadow: 1px 1px 5px 2px  rgb(236, 134, 250);
+  }
+  .button{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: rgb(226, 45, 250);
+  }
+  .button:hover{
+    box-shadow: 1px 1px 5px 2px  rgb(236, 134, 250);
+  }
+  .button1{
+    margin-left:40px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: rgb(226, 45, 250);
+  }
+  .button1:hover{
+    box-shadow: 1px 1px 5px 2px  rgb(236, 134, 250);
+  }
