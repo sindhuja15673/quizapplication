@@ -7,7 +7,9 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors(
+  { origin: 'https://quizapplication-moka.onrender.com' }
+));
 
 
 mongoose.connect('mongodb://localhost:27017/quizDB');
