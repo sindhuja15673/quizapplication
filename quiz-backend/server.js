@@ -33,20 +33,6 @@ const Quiz = mongoose.model('Quiz', quizSchema);
 const Score = mongoose.model('Score', scoreSchema);
 
 
-// app.get('/quiz/:category', async (req, res) => {
-//   const category = req.params.category;
-//   try {
-//     const quiz = await Quiz.findOne({ category }).exec();
-//     if (quiz) {
-//       res.json(quiz.questions);
-//     } else {
-//       res.status(404).send('Category not found');
-//     }
-//   } catch (err) {
-//     res.status(500).send(err);
-//   }
-// });
-
 app.get('/quiz/:category', async (req, res) => {
   try {
       const category = req.params.category;

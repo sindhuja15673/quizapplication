@@ -7,10 +7,22 @@
     margin-right: 40px;
   }
   
+  .option.disabled {
+    pointer-events: none;  
+   
+  }
+  
+  .option:active {
+    background-color: rgb(28, 197, 22) !important; 
+    transform: scale(0.95);
+    transition: background-color 0.1s ease-in-out;
+  }
+  
   .option.selected {
     background-color: rgb(122, 240, 122); 
     box-shadow: 1px 1px 5px 2px  rgb(134, 171, 250);
     border-color: rgb(28, 197, 22);
+    pointer-events: none;
     
   }
 
@@ -38,5 +50,48 @@
     border-color: rgb(226, 45, 250);
   }
   .button1:hover{
+    box-shadow: 1px 1px 5px 2px  rgb(236, 134, 250);
+  }
+
+
+  .close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(226, 45, 250);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 45, 250);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 5px;
+    right: 10px; 
+  }
+  
+  .close:hover {
+    background-color: rgb(236, 134, 250);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(226, 45, 250, 0.6);
+  }
+  
+  .close:active {
+    transform: scale(0.9);
+  }
+  
+
+  .buttonc{
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: rgb(226, 45, 250);
+  }
+  .buttonc:hover{
     box-shadow: 1px 1px 5px 2px  rgb(236, 134, 250);
   }

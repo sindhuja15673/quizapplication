@@ -3,11 +3,10 @@
     
     
     width: 648px;
-    height: 50vh;
+    height: 58vh;
     border: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
-    /* background-color: rgb(247, 243, 238); */
     background-image: url(./image/bg1.webp);
     box-shadow: 1px 1px 6px 6px  rgb(133, 128, 128);
     

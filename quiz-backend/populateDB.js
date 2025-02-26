@@ -126,7 +126,134 @@ const quizData = [
       },
     ],
   },
-];
+    {
+      category: 'React',
+      questions: [
+        {
+          question: 'What is React?',
+          options: [
+            'A JavaScript library for building user interfaces',
+            'A framework for building mobile applications',
+            'A server-side rendering library',
+            'A database management system',
+          ],
+          correctAnswer: 'A JavaScript library for building user interfaces',
+        },
+        {
+          question: 'What is JSX?',
+          options: [
+            'A syntax extension for JavaScript',
+            'A templating language for React',
+            'A CSS preprocessor',
+            'A type-checking tool',
+          ],
+          correctAnswer: 'A syntax extension for JavaScript',
+        },
+        {
+          question: 'Which hook is used for managing state in a functional component?',
+          options: ['useEffect', 'useState', 'useContext', 'useReducer'],
+          correctAnswer: 'useState',
+        },
+        {
+          question: 'What is the purpose of the useEffect hook?',
+          options: [
+            'To handle side effects in functional components',
+            'To define the initial state of a component',
+            'To create context for global state management',
+            'To manage form inputs',
+          ],
+          correctAnswer: 'To handle side effects in functional components',
+        },
+        {
+          question: 'What is a controlled component in React?',
+          options: [
+            'A component that controls the behavior of other components',
+            'A component that manages its own state',
+            'A component whose state is controlled by React through props',
+            'A component that directly manipulates the DOM',
+          ],
+          correctAnswer: 'A component whose state is controlled by React through props',
+        },
+        {
+          question: 'What is the Virtual DOM?',
+          options: [
+            'A real representation of the browser’s DOM',
+            'A lightweight copy of the real DOM that React uses for efficient updates',
+            'A debugging tool for JavaScript applications',
+            'A React plugin for optimizing performance',
+          ],
+          correctAnswer: 'A lightweight copy of the real DOM that React uses for efficient updates',
+        },
+      ],
+    },
+    {
+      category: 'Redux',
+      questions: [
+        {
+          question: 'What is Redux?',
+          options: [
+            'A database management system',
+            'A library for managing application state',
+            'A JavaScript framework for building UI components',
+            'A tool for API integration',
+          ],
+          correctAnswer: 'A library for managing application state',
+        },
+        {
+          question: 'What are the core principles of Redux?',
+          options: [
+            'Single source of truth, State is read-only, Changes are made with pure functions',
+            'Multiple sources of truth, State can be modified directly, Components manage their own state',
+            'State is read-only, Only class components can use Redux, No middleware support',
+            'Redux is only used for asynchronous data fetching',
+          ],
+          correctAnswer: 'Single source of truth, State is read-only, Changes are made with pure functions',
+        },
+        {
+          question: 'What is an action in Redux?',
+          options: [
+            'A function that updates the component state',
+            'A JavaScript object that describes changes in the application state',
+            'A middleware function for handling API requests',
+            'A method used to modify the DOM',
+          ],
+          correctAnswer: 'A JavaScript object that describes changes in the application state',
+        },
+        {
+          question: 'What is a reducer in Redux?',
+          options: [
+            'A function that determines how the state changes in response to an action',
+            'A component that handles API calls',
+            'A middleware for processing side effects',
+            'A tool for debugging state changes',
+          ],
+          correctAnswer: 'A function that determines how the state changes in response to an action',
+        },
+        {
+          question: 'What is the purpose of the Redux store?',
+          options: [
+            'To store the entire application state in a single place',
+            'To store local component states',
+            'To manage UI-related events',
+            'To handle authentication logic',
+          ],
+          correctAnswer: 'To store the entire application state in a single place',
+        },
+        {
+          question: 'What is middleware in Redux?',
+          options: [
+            'A function that allows async logic and side effects in Redux applications',
+            'A built-in React feature for managing state',
+            'A method for styling components',
+            'A tool for debugging JavaScript code',
+          ],
+          correctAnswer: 'A function that allows async logic and side effects in Redux applications',
+        },
+      ],
+    },
+  ];
+  
+
 
 async function seedDatabase() {
     try {
