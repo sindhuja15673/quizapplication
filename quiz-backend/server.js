@@ -12,7 +12,7 @@ app.use(cors(
 ));
 
 
-mongoose.connect('mongodb://localhost:27017/quizDB');
+mongoose.connect('mongodb+srv://ssindhujak69:03EFoSKsh1kMnSm6@cluster0.hbklo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/quizDB');
 
 const quizSchema = new mongoose.Schema({
   category: String,
