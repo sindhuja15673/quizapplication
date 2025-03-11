@@ -16,7 +16,7 @@ function Quiz() {
 
   useEffect(() => {
     if (quizCategory) {
-      fetch(`https://quizbackend-nchw.onrender.com/api/quiz/${quizCategory}`)
+      fetch(`https://quizapplications-7elz.onrender.com/quiz/${quizCategory}`)
         .then(response => response.json())
         .then(data => {
           setQuizData(data);
