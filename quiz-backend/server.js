@@ -7,9 +7,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
-app.use(cors(
-  { origin: 'https://quizapplication-moka.onrender.com' }
-));
+app.use(cors());
 
 
 mongoose.connect('mongodb+srv://ssindhujak69:03EFoSKsh1kMnSm6@cluster0.hbklo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/quizDB');
@@ -73,9 +71,3 @@ app.get('/scores', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
-
-
-
-
-
