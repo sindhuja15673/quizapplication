@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-mongoose.connect('mongodb+srv://ssindhujak69:03EFoSKsh1kMnSm6@cluster0.hbklo.mongodb.net/quizDB?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('mongodb+srv://ssindhujak69:03EFoSKsh1kMnSm6@cluster0.hbklo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 const quizSchema = new mongoose.Schema({
   category: String,
